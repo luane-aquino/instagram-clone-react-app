@@ -1,13 +1,18 @@
 import React from "react";
 import TopInfo from "../TopInfo";
 import Logo from "../../images/logo-instagram.png";
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
     <div className="header">
       <header>
-        <img src={Logo} alt="Logo Instagram" />
-        <TopInfo />
+        <Link to="/">
+          <img src={Logo} alt="Logo Instagram" />
+        </Link>
+        <Link to="/perfil">
+          <TopInfo />
+        </Link>
       </header>
     </div>
   );

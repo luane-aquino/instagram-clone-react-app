@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../../components/Header";
+import { Helmet } from 'react-helmet'
 import Stories from "../../components/Stories";
 import TimeLine from "../../components/TimeLine";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <Helmet><title>Homepage</title></Helmet>
       <div className="home">
         <TimeLine />
         <Stories />
