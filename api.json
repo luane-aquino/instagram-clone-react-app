@@ -12,7 +12,7 @@
       "id": 2,
       "user": "history",
       "userPicture": "https://randomuser.me/api/portraits/men/22.jpg",
-      "postPicture": "https://instagram.fcpq4-1.fna.fbcdn.net/vp/591fc84e5fcc45e10203bdd893595c1f/5E880321/t51.2885-15/sh0.08/e35/s750x750/73512608_558080658329812_7929171608287995525_n.jpg?_nc_ht=instagram.fcpq4-1.fna.fbcdn.net&_nc_cat=104",
+      "postPicture": "https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=416&h=312&q=60",
       "description": "On #ThisDayinHistory 1938, Orson Welles caused a nationwide panic with his broadcast of “War of the Worlds”—a realistic radio dramatization of a Martian invasion of Earth"
     },
     {
@@ -27,7 +27,7 @@
       "id": 4,
       "user": "nasa",
       "userPicture": "https://randomuser.me/api/portraits/women/27.jpg",
-      "postPicture": "https://www.publicdomainpictures.net/pictures/90000/velka/mars.jpg",
+      "postPicture": "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg",
       "location": "Mars",
       "description": "🧭 Explorer, 📸 photographer, ⛰️ geologist, 🧪 chemist... Mars Curiosity does it all!⁣"
     }
