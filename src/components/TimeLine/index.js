@@ -1,7 +1,6 @@
 import React from "react";
 import { FiHeart } from 'react-icons/fi'
 import axios from 'axios';
-import Helmet from "react-helmet";
 import Post from '../Post'
 
 export default class TimeLine extends React.Component {
