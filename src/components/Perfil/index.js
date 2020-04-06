@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from 'react-helmet'
+import './styles.css'
 
 export default function Perfil() {
   return (
