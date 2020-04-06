@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHeart } from 'react-icons/fa';
+import { FiHeart } from 'react-icons/fi';
 
 export default function Post(props) {
   const { userPicture, user, location, postPicture, description } = props.post
@@ -16,7 +16,7 @@ export default function Post(props) {
         <img src={postPicture} alt="post picture" />
       </div>
       <div className="post-likes">
-        <FaHeart />
+        <FiHeart />
       </div>
       <p>{description}</p>
     </div>
