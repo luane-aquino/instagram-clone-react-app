@@ -5,13 +5,13 @@ import Post from '../Post'
 
 export default class TimeLine extends React.Component {
   state = {
-    conteudo: []
+    content: []
   }
 
   componentDidMount = () => {
     axios.get("http://localhost:3000/posts")
       .then(res => {
-        this.setState({ conteudo: res.data })
+        this.setState({ content: res.data })
       })
   }
 
@@ -19,8 +19,8 @@ export default class TimeLine extends React.Component {
     return (
       <>
         <div className="post">
-          {this.state.conteudo.map(content => (
-            <Post key={content.id} post={content} />
+          {this.state.content.map(post => (
+            <Post key={post.id} post={post} />
           ))
           }
         </div>
