@@ -6,7 +6,7 @@ Demo Link: https://luane-aquino.github.io/instagram-clone-react-app/
 
 * React
 * Redux
-* Single page application
+* Single Page Application
 
 ### Comandos para executar o projeto localmente
 
