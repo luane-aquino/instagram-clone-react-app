@@ -9,6 +9,7 @@ Demo Link: https://luane-aquino.github.io/instagram-clone-react-app/
 * Single Page Application
 
 ### Comandos para executar o projeto localmente
+In the project directory, run:
 
 `npm install`
 
