@@ -1,14 +1,17 @@
-Instagram clone react app. Atividade desenvolvida no womenCanCode/Venturus em 2020.
+# Instagram clone React app
 
-Demo Link: https://luane-aquino.github.io/instagram-clone-react-app/
+A simple Instagram clone using React. Demo Link: https://luane-aquino.github.io/instagram-clone-react-app/
 
-### Tecnologias utilizadas
+## Built With
 
-* React
-* Redux
-* Single Page Application
+* [React](https://reactjs.org/) - Front-end Javascript library
+* [Redux](https://redux.js.org/) - Used to share state between components
 
-### Comandos para executar o projeto localmente
+## Commands to run this project locally
+
+`git clone git@github.com:luane-aquino/instagram-clone-react-app.git`
+
+`cd instagram-clone-react-app`
 
 `npm install`
 
