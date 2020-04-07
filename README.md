@@ -1,5 +1,13 @@
 Instagram clone react app. Atividade desenvolvida no womenCanCode/Venturus em 2020.
 
+Demo Link: 
+
+### Tecnologias utilizadas
+
+* React
+* Redux
+* Single page application
+
 ### Comandos para executar o projeto localmente
 
 `npm install`
