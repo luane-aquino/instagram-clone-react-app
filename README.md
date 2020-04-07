@@ -13,10 +13,6 @@ A simple Instagram clone using React. Demo Link: https://luane-aquino.github.io/
 
 `cd instagram-clone-react-app`
 
-`git clone git@github.com:luane-aquino/instagram-clone-react-app.git`
-
-`cd instagram-clone-react-app`
-
 `npm install`
 
 `npm install -g json-server`
