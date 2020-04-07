@@ -1,7 +1,8 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Perfil from '../pages/perfil'
+
 import Home from '../pages/home'
+import Perfil from '../pages/perfil'
 
 function Routes() {
   return (

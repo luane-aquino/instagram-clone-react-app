@@ -1,31 +1,31 @@
-import React from "react";
-import { FiHeart } from 'react-icons/fi'
-import axios from 'axios';
-import Post from '../Post'
+import React, { Component } from 'react'
+import axios from 'axios'
+import Post from './Post'
 
-export default class TimeLine extends React.Component {
+class TimeLine extends Component {
+
   state = {
-    content: []
+    posts: []
   }
 
-  componentDidMount = () => {
-    axios.get("http://localhost:3000/posts")
-      .then(res => {
-        this.setState({ content: res.data })
-      })
+  componentDidMount = async () => {
+    await axios
+      .get('http://localhost:3000/posts')
+      .then(resposta => this.setState({ posts: resposta.data }))
   }
 
   render() {
+    const { posts } = this.state
     return (
-      <>
-        <div className="post">
-          {this.state.content.map(post => (
-            <Post key={post.id} post={post} />
-          ))
-          }
-        </div>
-      </>
+      <div>
+        {posts.map(post => (
+          <Post key={post.id} conteudo={post} />
+        ))}
+      </div>
     );
   }
-
 }
+
+export default TimeLine
+
+

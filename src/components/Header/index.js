@@ -10,9 +10,7 @@ export default function Header() {
         <Link to="/">
           <img src={Logo} alt="Logo Instagram" />
         </Link>
-        <Link to="/perfil">
-          <TopInfo />
-        </Link>
+        <TopInfo />
       </header>
     </div>
   );

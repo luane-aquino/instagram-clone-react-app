@@ -1,16 +1,31 @@
-import React from "react";
-import { Helmet } from 'react-helmet'
-import Stories from "../../components/Stories";
+import React, { Component } from 'react';
+import axios from 'axios'
+import { connect } from 'react-redux'
+
+import Sidebar from "../../components/Sidebar";
 import TimeLine from "../../components/TimeLine";
 
-export default function Home() {
-  return (
-    <>
-      <Helmet><title>Homepage</title></Helmet>
+class Home extends Component {
+
+  componentDidMount = async () => {
+    await axios
+      .get("http://localhost:3000/user")
+      .then(resposta => {
+        this.props.dispatch({
+          type: 'GET_USER',
+          payload: resposta.data
+        })
+      })
+  }
+
+  render() {
+    return (
       <div className="home">
         <TimeLine />
-        <Stories />
+        <Sidebar />
       </div>
-    </>
-  );
+    );
+  }
 }
+
+export default connect()(Home)
