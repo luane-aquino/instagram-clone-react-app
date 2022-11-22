@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import axios from 'axios'
 import Storie from './Storie'
+import api from '../../../api.json'
 
 export default class Stories extends Component {
 
@@ -9,9 +9,7 @@ export default class Stories extends Component {
   }
 
   componentDidMount = async () => {
-    await axios
-      .get('http://localhost:3000/stories')
-      .then(resposta => this.setState({ stories: resposta.data }))
+    this.setState({ stories: api.stories })
   }
 
   render() {

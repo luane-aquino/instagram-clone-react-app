@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import axios from 'axios'
 import Post from './Post'
+import api from '../../api.json'
 
 class TimeLine extends Component {
 
@@ -9,9 +9,7 @@ class TimeLine extends Component {
   }
 
   componentDidMount = async () => {
-    await axios
-      .get('http://localhost:3000/posts')
-      .then(resposta => this.setState({ posts: resposta.data }))
+    this.setState({ posts: api.posts })
   }
 
   render() {

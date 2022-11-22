@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import axios from 'axios'
+import api from '../../api.json'
 
 class Perfil extends Component {
 
@@ -8,9 +8,7 @@ class Perfil extends Component {
   }
 
   componentDidMount = async () => {
-    await axios
-      .get('http://localhost:3000/perfil')
-      .then(resposta => this.setState({ perfil: resposta.data }))
+    this.setState({ perfil: api.perfil })
   }
 
   render() {
