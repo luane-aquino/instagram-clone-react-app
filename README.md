@@ -1,23 +1,17 @@
 # Instagram clone React app
 
-A simple Instagram clone using React. Demo Link: https://luane-aquino.github.io/instagram-clone-react-app/
+A simple Instagram clone using React.
+![image](https://user-images.githubusercontent.com/10707843/203494461-cc5982d0-c6a3-460e-9ece-11dfe97c01c8.png)
+
 
 ## Built With
 
 * [React](https://reactjs.org/) - Front-end Javascript library
 * [Redux](https://redux.js.org/) - Used to share state between components
 
-## Commands to run this project locally
-
-`git clone git@github.com:luane-aquino/instagram-clone-react-app.git`
-
-`cd instagram-clone-react-app`
+## Commands to run locally
 
 `npm install`
-
-`npm install -g json-server`
-
-`json-server --watch api.json`
 
 `npm start`
 
