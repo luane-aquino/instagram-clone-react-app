@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": 1,
-      "user": "natgeo",
+      "user": "natgeo 1",
       "userPicture": "https://randomuser.me/api/portraits/men/25.jpg",
       "postPicture": "https://xray-mag.com/sites/default/files/2020-12/Hunley%20F-7%20b.jpg",
       "location": "Ocean",
