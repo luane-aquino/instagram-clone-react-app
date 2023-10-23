@@ -1,8 +1,8 @@
 # Instagram clone React app
 
 A simple Instagram clone using React. Demo: https://luane-aquino.github.io/instagram-clone-react-app/
-![image](https://user-images.githubusercontent.com/10707843/203494461-cc5982d0-c6a3-460e-9ece-11dfe97c01c8.png)
 
+![image](https://user-images.githubusercontent.com/10707843/203494461-cc5982d0-c6a3-460e-9ece-11dfe97c01c8.png)
 
 ## Built With
 
